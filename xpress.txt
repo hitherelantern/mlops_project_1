@@ -31,3 +31,46 @@
 ---
 
 This version explicitly states that the project was a POC, not a production-ready system, while still emphasizing the technical depth and innovation involved. Let me know if you'd like further refinements!
+
+
+
+
+
+
+Here's a polished project description for your insurance article classification project:
+
+---
+
+**Project: Insurance Article Classification**
+
+- **Objective:** Developed a machine learning-based classification model to determine whether insurance-related articles are "in-scope" (relevant) or "out-of-scope" (irrelevant) for predefined insurance categories and use cases.
+
+- **Key Features:**
+  1. **Data Collection and Preprocessing:**
+     - Gathered a dataset of insurance articles and performed text cleaning, normalization, and feature engineering.
+     - Addressed class imbalance using SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic samples for the minority class.
+     - Enhanced dataset diversity with text data augmentation techniques, including synonym replacement and back translation.
+
+  2. **Feature Extraction:**
+     - Employed TF-IDF and word embeddings (e.g., Sentence Transformers) to represent text data numerically.
+  3. **Model Development:**
+     - Trained and optimized multiple machine learning classifiers (e.g., Logistic Regression, Random Forest, or Transformer-based models) to maximize classification accuracy.
+     - Performed extensive hyperparameter tuning to improve model performance.
+  4. **Evaluation and Deployment:**
+     - Evaluated the model using metrics like precision, recall, F1-score, and confusion matrix to ensure balanced performance.
+     - Designed a workflow for categorizing new articles in real-time or batch processing.
+
+- **Challenges Addressed:**
+  - Dealing with ambiguously worded articles that blurred the line between "in-scope" and "out-of-scope."
+  - Managing highly imbalanced datasets where out-scope articles were much rarer.
+  - Balancing generalization and overfitting during model training due to limited labeled data.
+
+- **Technologies Used:** Python, Scikit-learn, Hugging Face Transformers, pandas, and Matplotlib/Seaborn for visualization.
+
+- **Outcome:** Successfully built a robust classification model that achieved high accuracy and recall in identifying in-scope articles, streamlining the process of content filtering for insurance-related documentation.
+
+---
+
+This description highlights your technical and problem-solving skills while framing the project as impactful and innovative. Let me know if you'd like any adjustments!
+
+
