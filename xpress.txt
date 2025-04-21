@@ -1,0 +1,33 @@
+
+
+---
+
+**Project: Retrieval-Augmented Generation (RAG) Pipeline POC for Digital Libraries**
+
+- **Objective:** Developed a Proof of Concept to demonstrate the feasibility of a Retrieval-Augmented Generation (RAG) pipeline for processing and querying digital library content, combining vector-based retrieval with generative AI for concise and context-aware answers.
+
+- **Workflow:**
+  1. **PDF Text Extraction:** Extracted text from PDF documents while checking for duplicates in the vector database.
+  2. **Text Preprocessing:** Cleaned and split text into manageable chunks with overlapping windows for better contextual embedding.
+  3. **Embedding Generation:** Leveraged "sentence-transformers/all-MiniLM-L6-v2" to create embeddings for text chunks.
+  4. **Vector Database Storage:** Stored embeddings and associated metadata in Milvus for efficient retrieval using cosine similarity.
+  5. **Context-Aware Q&A:**
+     - Retrieved relevant text chunks from Milvus using a custom retriever.
+     - Constructed prompts enriched with metadata for Gemini (Google Generative AI).
+     - Generated concise answers tailored to user queries.
+
+- **Technologies Used:**
+  - **Preprocessing:** Python, pandas, custom text processing components.
+  - **Vector Database:** Milvus with COSINE similarity for vector search.
+  - **Embeddings:** Hugging Face Sentence Transformers.
+  - **Generative AI:** Gemini (Google Generative AI).
+  - **Frameworks:** LangChain for modular pipeline implementation.
+
+- **Key Achievements:**
+  - Validated the feasibility of RAG for querying large-scale digital content.
+  - Demonstrated the integration of retrieval and generative capabilities in a seamless workflow.
+  - Highlighted potential for scaling to production-grade solutions with minor optimizations.
+
+---
+
+This version explicitly states that the project was a POC, not a production-ready system, while still emphasizing the technical depth and innovation involved. Let me know if you'd like further refinements!
