@@ -1,5 +1,7 @@
 test.txt
 notebook/data.csv
+test.py
+artifact
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
